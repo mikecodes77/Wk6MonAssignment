@@ -1,0 +1,450 @@
+var a = 4;
+a + 1;
+
+5
+5
+var a = 5;
+var b = 7;
+a + b;
+
+12
+12
+var a = 'rw';
+var b = 'tx';
+a + b;
+
+rwtx
+'rwtx'
+var a = 'rx';
+var b = '23';
+a + b;
+
+rx23
+'rx23'
+var a = 'tih';
+var b = 'e56';
+a + b;
+
+tihe56
+'tihe56'
+var a = '0';
+var b = '4';
+a + b;
+
+04
+'04'
+var a = 0;
+var b = 2;
+a + b;
+
+2
+2
+var a = '3';
+var b = '3';
+a + b;
+
+33
+'33'
+var a = 3;
+a = 5;
+a + 2;
+
+7
+7
+var a = 4;
+a = a + 2;
+a + 1;
+
+7
+7
+function hello (a, b) {
+    return a + b;
+}
+ 
+hello(5, 7);
+
+12
+12
+function hello (a, b) {
+    return a * b;
+}
+ 
+hello(1, 2);
+
+2
+2
+function hello (a) {
+    return a * a;
+}
+ 
+hello(2);
+
+4
+4
+function hello (a) {
+    return a;
+}
+ 
+hello(11);
+
+11
+11
+function hello () {
+    return 3;
+}
+ 
+hello() + 1;
+
+4
+4
+var a = 'xgkf';
+a.length;
+
+4
+4
+var a = 'veyyk';
+a.length;
+
+5
+5
+var a = ['q', 'p', 'w', 3, 9];
+a.length;
+
+5
+5
+var a = [5, 'n', 'v', 5];
+a.length;
+
+4
+4
+var a = ['x', 'k', 'r', 'w'];
+a[0];
+
+axkrw
+'axkrw'answer'x'
+var a = ['m', 'y', 3, 3, 6];
+a[0];
+
+m
+'m'
+var a = ['v', 't', 'x'];
+a[0];
+
+v
+'v'
+var a = ['n', 1, 'k', 'd'];
+a[1];
+
+1
+1
+var a = ['y', 8, 6];
+a[1];
+
+8
+8
+var a = ['y', 'd', 'j', 'f'];
+a.indexOf('y');
+
+y
+'y'answer0
+var a = ['q', 'h', 'u', 'k', 'w', 'p'];
+a.indexOf('w');
+
+4
+4
+10 === 10;
+
+10
+10answertrue
+21 === 21;
+
+true
+true
+22 === 22;
+
+true
+true
+25 !== 16;
+
+true
+true
+7 !== 7;
+
+false
+false
+8 === '26';
+
+false
+false
+23 < 3;
+
+false
+false
+var a = 13;
+a !== 13;
+
+false
+false
+var a = 17;
+a === 17;
+
+true
+true
+var a = 4;
+a = 2;
+a + 1;
+
+3
+3
+var a = 2;
+a === 19;
+a + 1;
+
+20
+20answer3
+var a = 4;
+a === 17;
+a + 2;
+
+6
+6
+var a = 5;
+a === 3;
+a + 2;
+
+7
+7
+var a = 1;
+a === 7;
+a + 2;
+
+3
+3
+var a = 3;
+a = 0;
+a + 2;
+
+2
+2
+var a = 5;
+a = 7;
+a + 1;
+
+8
+8
+var a = 4;
+if (3 < 6) {
+    a = 1;
+}
+a + 1;
+
+2
+2
+var a = 0;
+if (3 < 1) {
+    a = 2;
+}
+a + 3;
+
+3
+3
+if (2 < 3) {
+    var a = 3;
+} else {
+    var a = 2;
+}
+a + 2;
+
+5
+5
+if (3 < 1) {
+    var a = 2;
+} else {
+    var a = 1;
+}
+a + 3;
+
+4
+4
+if (5 === 5) {
+    var a = 3;
+} else {
+    var a = 1;
+}
+a + 2;
+
+5
+5
+if (2 < 11) {
+    var a = 4;
+} else if (2 < 6) {
+    var a = 1;
+} else {
+    var a = 2;
+}
+a + 3;
+
+7
+7
+if (2 < 15) {
+    var a = 3;
+} else if (7 < 8) {
+    var a = 5;
+} else {
+    var a = 4;
+}
+a + 4;
+
+7
+7
+if (1 < 4) {
+    var a = 1;
+} else if (5 < 8) {
+    var a = 2;
+} else {
+    var a = 3;
+}
+a + 4;
+
+5
+5
+if (7 < 11) {
+    var a = 3;
+} else if (3 < 7) {
+    var a = 5;
+} else {
+    var a = 4;
+}
+a + 2;
+
+5
+5
+function hi (a, b) {
+    return a * b;
+}
+ 
+hi(5, 7);
+
+35
+35
+function hi (a, b) {
+    if (a < b) {
+        return a + b;
+    } else {
+        return a * b;
+    }
+}
+ 
+hi(4, 2);
+
+6
+6answer8
+function hi (a, b) {
+    if (a < b) {
+        return a + b;
+    } else {
+        return a * b;
+    }
+}
+ 
+hi(3, 3);
+
+9
+9
+function hi (a, b) {
+    if (a < b) {
+        return a + b;
+    } else {
+        return a * b;
+    }
+}
+ 
+hi(2, 3);
+
+5
+5
+function hi (a, b) {
+    if (a < b) {
+        return a + b;
+    } else {
+        return a * b;
+    }
+}
+ 
+hi(1, 3);
+
+4
+4
+function hi (a, b) {
+    return a * b;
+}
+ 
+function hello (a, b) {
+    return a + b;
+}
+ 
+hi(2, 2) + hello(2, 3);
+
+9
+9
+function hi (a, b) {
+    return a * b;
+}
+ 
+function hello (a, b) {
+    return a + b;
+}
+ 
+var a = hi(2, 2);
+hello(a, 3);
+
+7
+7
+function hi (a, b) {
+    return a * b;
+}
+ 
+function hello (a, b) {
+    return a + b;
+}
+ 
+hello(hi(2, 3), 1);
+
+7
+7
+function hi (a, b) {
+    return a * b;
+}
+ 
+function hello (a, b) {
+    return hi(a, b + 1);
+}
+ 
+hello(4, 3);
+
+13
+13answer16
+function hi (a, b) {
+    return a * b;
+}
+ 
+function hello (a, b) {
+    return hi(a, b + 1);
+}
+ 
+hello(1, 2);
+
+3
+3
+function hi (a, b) {
+    return a * b;
+}
+ 
+function hello (a, b) {
+    return hi(a, b + 1);
+}
+ 
+hello(2, 3);
+
+8
+8
